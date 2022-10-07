@@ -1,62 +1,36 @@
-# html-work
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8" />
+		<meta charset="utf-8">
 		<title></title>
 	</head>
 	<body>
-		<table border="1">
-		<tr>
-			<td colspan="2" align="center">
-			<b>信 息 统 计 表</b></td>
-		</tr>
-		<tr>
-			<th>姓名：</th>
-		<td><input type="text" name="userName"></td>
-		</tr>
-		<tr>
-			<th>年龄：</th>
-		<td><input type="password" name="Age"></td>
-		</tr>
-		<tr>
-			<th>性别：</th>
-			<td><input type="radio" name="sex" value="1">男     
-			<input type="radio" name="sex" value="0">女</td>
-		</tr>
-		<tr>
-		<th>爱好：</th>
-		    <td>
-				<input type="checkbox" name="hobby" value="1">旅游<br>
-				<input type="checkbox" name="hobby" value="2">登山<br>
-				<input type="checkbox" name="hobby" value="3">健身<br>
-				<input type="checkbox" name="hobby" value="4">上网<br>
-				<input type="checkbox" name="hobby" value="5">游泳	
-			</td>
-		</tr>
-		<tr>
-			<th>学历:</th>
-			<td>
-				<select name="degree">
-							<option value="">--请选择--</option>    
-							<option value="1">专科</option>    
-							<option value="2">本科</option>    
-							<option value="3">硕士</option>    
-							<option value="4">博士及以上</option>
-						</select>
-			</td>
-		</tr>
-		<tr>
-			<th>自我介绍:</th>
-			<td><textarea name="comment" rows="5" cols="30"></textarea></td>
-	    </tr>
-		<tr>
-			<th> </th>
-			<td><input type="submit" value="提交">
-			<input type="reset" value="重置"></td>
-			
-			<input type="hidden" name="userId" value="1001">
-		</tr>
-		</table>
+			<header>
+			<h1>网页标题</h1>
+			<ul>
+				<nav>
+				<li><a href = "/html/">首页</a></li> 
+				<li><a href = "/html/">帮助</a></li> 
+				</nav>
+			</ul>
+			</header>
+			<article>
+				<header>
+					<hgroup>
+			<h2>文章主标题</h2>
+			<h2>文章子标题</h2>
+			        </hgroup>
+			    </header>
+				<p>文章正文</p>
+				<h3>评论标题</h3>
+				<p>评论正文</p>
+			<footer>
+			 <p>
+			<small>
+					版权所有：Joseeccc
+			</small>
+		     </p>
+			</footer>
+			</article>
 	</body>
 </html>
